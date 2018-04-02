@@ -96,7 +96,7 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags         = 'DNS', 'DoH', '1.1.1.1', 'Cloudflare', 'PSEdition_Core', 'PSEdition_Desktop'
+            Tags         = 'DNS', 'DoH', '1.1.1.1', 'Cloudflare', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'macOS'
 
             # A URL to the license for this module.
             # LicenseUri = ''
