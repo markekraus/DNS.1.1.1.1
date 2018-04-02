@@ -16,5 +16,8 @@
     "editor.insertSpaces": true,
     "editor.renderWhitespace": "all",
     "editor.trimAutoWhitespace": true,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "cSpell.words": [
+        "Cloudflare"
+    ]
 }
