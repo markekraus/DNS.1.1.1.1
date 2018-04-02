@@ -33,7 +33,7 @@ function Resolve-1111 {
                 $ApiBaseUri
                 $CtMimeType
                 $Lookup
-                $Type
+                Resolve-QueryType $Type
             )
             Write-Verbose "Uri: $Uri"
             Invoke-RestMethod $Uri
