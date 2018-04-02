@@ -1,6 +1,6 @@
 ---
-external help file: 1.1.1.1-help.xml
-Module Name: 1.1.1.1
+external help file: DNS.1.1.1.1-help.xml
+Module Name: DNS.1.1.1.1
 online version:
 schema: 2.0.0
 ---
@@ -99,4 +99,4 @@ In future versions the output will be strongly typed.
 
 ## RELATED LINKS
 
-[https://github.com/markekraus/1.1.1.1/blob/master/Docs/Resolve-1111.md](https://github.com/markekraus/1.1.1.1/blob/master/Docs/Resolve-1111.md)
+[https://github.com/markekraus/DNS.1.1.1.1/blob/master/Docs/Resolve-1111.md](https://github.com/markekraus/DNS.1.1.1.1/blob/master/Docs/Resolve-1111.md)

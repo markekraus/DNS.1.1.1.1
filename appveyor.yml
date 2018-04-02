@@ -6,7 +6,7 @@ environment:
   APPVEYOR_SAVE_CACHE_ON_ERROR: true
   NugetApiKey:
     secure: 3sC7bUSY534F4WnpYXlP7XyikulxbSpfLZgC3y37gA2OAeMp35la0zplVjiliOFn
-  ModuleName: 1.1.1.1
+  ModuleName: DNS.1.1.1.1
 
 build: false
 
