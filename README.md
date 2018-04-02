@@ -2,6 +2,10 @@
 
 A PowerShell Module for with 1.1.1.1's DNS over HTTPS (DoH) Web Service.
 
+* [1.1.1.1](https://1.1.1.1/)
+* [Cloudflare DNS over HTTPS (DoH)](https://developers.cloudflare.com/1.1.1.1/dns-over-https/)
+* [DoH using JSON](https://developers.cloudflare.com/1.1.1.1/dns-over-https/json-format/)
+
 ## Quick Start
 
 ```powershell

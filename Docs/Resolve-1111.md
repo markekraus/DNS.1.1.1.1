@@ -67,7 +67,7 @@ Accept wildcard characters: False
 The type of DNS query.
 Common types are A, AAAA, CNAME, MX, TXT and SOA.
 The default is A.
-See (iana.org)[https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-parameters-4] for more details.
+See [iana.org](https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-parameters-4) for more details.
 
 ```yaml
 Type: DnsQueryType
@@ -100,3 +100,11 @@ In future versions the output will be strongly typed.
 ## RELATED LINKS
 
 [https://github.com/markekraus/DNS.1.1.1.1/blob/master/Docs/Resolve-1111.md](https://github.com/markekraus/DNS.1.1.1.1/blob/master/Docs/Resolve-1111.md)
+
+[1.1.1.1](https://1.1.1.1/)
+
+[Cloudflare DNS over HTTPS (DoH)](https://developers.cloudflare.com/1.1.1.1/dns-over-https/)
+
+[DoH using JSON](https://developers.cloudflare.com/1.1.1.1/dns-over-https/json-format/)
+
+[iana.org](https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-parameters-4)
