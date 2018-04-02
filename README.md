@@ -1,6 +1,6 @@
 # DNS.1.1.1.1
 
-A PowerShell Module for with 1.1.1.1's DNS over HTTPS (DoH) Web Service.
+A PowerShell Module for working with 1.1.1.1's DNS over HTTPS (DoH) Web Service.
 
 * [1.1.1.1](https://1.1.1.1/)
 * [Cloudflare DNS over HTTPS (DoH)](https://developers.cloudflare.com/1.1.1.1/dns-over-https/)
@@ -16,7 +16,7 @@ Resolve-1111 google.com
 
 ## Installation
 
-DNS.1.1.1.1 is available on the PowerShell Gallery.
+DNS.1.1.1.1 is available on the [PowerShell Gallery](https://www.powershellgallery.com/packages/DNS.1.1.1.1/).
 
 ```powershell
 Install-Module DNS.1.1.1.1 -Scope CurrentUser -AllowClobber
