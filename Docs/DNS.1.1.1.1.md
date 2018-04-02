@@ -8,7 +8,7 @@ Locale: en-US
 
 # DNS.1.1.1.1 Module
 ## Description
-{{Manually Enter Description Here}}
+A PowerShell Module for with 1.1.1.1's DNS over HTTPS (DoH) Web Service.
 
 ## DNS.1.1.1.1 Cmdlets
 ### [Resolve-1111](Resolve-1111.md)
