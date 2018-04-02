@@ -31,9 +31,16 @@ $PSDefaultParameterValues['Install-Module:Scope'] = 'CurrentUser'
 
 ) | Foreach-Object {
     $Params = $_
+    $moduleExists = $null
     'Processing Module {0} Version = {1}' -f $Params.Name, $Params.RequiredVersion
     if ($ENV:APPVEYOR) {
         Install-Module -Force @Params
+    } else {
+        $moduleExists = Get-Module -ListAvailable $Params.Name |
+            where-object {$_.Version -eq $Params.RequiredVersion}
+        if (-not $moduleExists) {
+            Install-Module -Force @Params
+        }
     }
     Remove-Module -Force -Name $Params.Name -ErrorAction SilentlyContinue
     try {$Params.Remove('SkipPublisherCheck')}catch {}
