@@ -108,7 +108,7 @@
             # IconUri = ''
 
             # ReleaseNotes of this module
-            ReleaseNotes = 'Add Type Resolution and Workaround invalid JSON results.'
+            ReleaseNotes = 'Gate TLS 1.2 for non-Core only.'
 
         } # End of PSData hashtable
 

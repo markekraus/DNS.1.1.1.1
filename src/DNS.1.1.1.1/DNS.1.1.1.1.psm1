@@ -1,1 +1,3 @@
-Enable-Tls -Tls12
+if ('Core' -ne $PSVersionTable.PSEdition) {
+    Enable-Tls -Tls12
+}
