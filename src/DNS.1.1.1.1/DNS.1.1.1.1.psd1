@@ -33,7 +33,7 @@
     Description       = 'A PowerShell Module for with 1.1.1.1''s DNS over HTTPS (DoH) Web Service'
 
     # Minimum version of the Windows PowerShell engine required by this module
-    # PowerShellVersion = ''
+    PowerShellVersion = '5.0'
 
     # Name of the Windows PowerShell host required by this module
     # PowerShellHostName = ''
@@ -96,7 +96,7 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags         = 'DNS', 'DoH', '1.1.1.1', 'Cloudflare'
+            Tags         = 'DNS', 'DoH', '1.1.1.1', 'Cloudflare', 'PSEdition_Core', 'PSEdition_Desktop'
 
             # A URL to the license for this module.
             # LicenseUri = ''
@@ -108,7 +108,7 @@
             # IconUri = ''
 
             # ReleaseNotes of this module
-            ReleaseNotes = 'Add Cloudflare Tag for gallery discovery and change manifest to UTF8'
+            ReleaseNotes = 'Add core and desktop edition tags and set minimum version to 5.0'
 
         } # End of PSData hashtable
 
