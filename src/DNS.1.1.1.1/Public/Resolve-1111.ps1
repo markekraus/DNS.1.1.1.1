@@ -36,7 +36,12 @@ function Resolve-1111 {
                 Resolve-QueryType $Type
             )
             Write-Verbose "Uri: $Uri"
-            Invoke-RestMethod $Uri
+            $Result = Invoke-RestMethod $Uri
+            if ($Result -is [String]) {
+                $Result -replace '""([^"]*)""', '"\"$1\""' | ConvertFrom-Json
+            } else {
+                $Result
+            }
         }
     }
 }

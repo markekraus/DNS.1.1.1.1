@@ -108,7 +108,7 @@
             # IconUri = ''
 
             # ReleaseNotes of this module
-            ReleaseNotes = 'Add core and desktop edition tags and set minimum version to 5.0'
+            ReleaseNotes = 'Add Type Resolution and Workaround invalid JSON results.'
 
         } # End of PSData hashtable
 
