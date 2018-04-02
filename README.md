@@ -9,7 +9,7 @@ A PowerShell Module for with 1.1.1.1's DNS over HTTPS (DoH) Web Service.
 ## Quick Start
 
 ```powershell
-Install-Module DNS.1.1.1.1 -Scope CurrentUser
+Install-Module DNS.1.1.1.1 -Scope CurrentUser -AllowClobber
 Import-Module DNS.1.1.1.1
 Resolve-1111 google.com
 ```
@@ -19,7 +19,7 @@ Resolve-1111 google.com
 DNS.1.1.1.1 is available on the PowerShell Gallery.
 
 ```powershell
-Install-Module DNS.1.1.1.1 -Scope CurrentUser
+Install-Module DNS.1.1.1.1 -Scope CurrentUser -AllowClobber
 ```
 
 ## Documentation
