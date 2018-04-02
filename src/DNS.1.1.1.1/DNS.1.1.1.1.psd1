@@ -108,7 +108,7 @@
             # IconUri = ''
 
             # ReleaseNotes of this module
-            ReleaseNotes = 'Add Cloudflare Tag for gallery discovery'
+            ReleaseNotes = 'Add Cloudflare Tag for gallery discovery and change manifest to UTF8'
 
         } # End of PSData hashtable
 
