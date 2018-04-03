@@ -30,7 +30,7 @@
     Copyright         = 'Copyright (c) Mark Kraus. All rights reserved.'
 
     # Description of the functionality provided by this module
-    Description       = 'A PowerShell Module for with 1.1.1.1''s DNS over HTTPS (DoH) Web Service'
+    Description       = 'A PowerShell Module for working with 1.1.1.1''s DNS over HTTPS (DoH) Web Service'
 
     # Minimum version of the Windows PowerShell engine required by this module
     PowerShellVersion = '5.0'
@@ -99,7 +99,7 @@
             Tags         = 'DNS', 'DoH', '1.1.1.1', 'Cloudflare', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'macOS'
 
             # A URL to the license for this module.
-            # LicenseUri = ''
+            LicenseUri   = 'https://github.com/markekraus/DNS.1.1.1.1/blob/master/LICENSE'
 
             # A URL to the main website for this project.
             ProjectUri   = 'https://github.com/markekraus/DNS.1.1.1.1'
@@ -108,7 +108,7 @@
             # IconUri = ''
 
             # ReleaseNotes of this module
-            ReleaseNotes = 'Gate TLS 1.2 for non-Core only.'
+            ReleaseNotes = 'Update Gallery Tags, Fix Manifest Description, and License URI'
 
         } # End of PSData hashtable
 
