@@ -36,7 +36,10 @@ function Resolve-1111 {
                 Resolve-QueryType $Type
             )
             Write-Verbose "Uri: $Uri"
-            $Result = Invoke-RestMethod $Uri
+            $Headers = @{
+                'Accept' = 'application/dns-json'
+            }
+            $Result = Invoke-RestMethod -Uri $Uri -Headers $Headers
             if ($Result -is [String]) {
                 $Result -replace '""([^"]*)""', '"\"$1\""' | ConvertFrom-Json
             } else {
